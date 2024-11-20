@@ -1,0 +1,30 @@
+.tabs-container {
+    margin: 20px;
+  }
+  
+  .tabs-header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tabs-header button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tabs-header button:hover {
+    background-color: #45a049;
+  }
+  
+  .tab-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
