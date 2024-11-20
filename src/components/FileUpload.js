@@ -42,7 +42,7 @@ const FileUpload = () => {
     setLoading(true);
     setRawResponse(null);
     try {
-      const response = await axios.post('http://localhost:5000/api/process-file', formData, {
+      const response = await axios.post('https://backend-1-p4vg.onrender.com/api/process-file', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       console.log(response.data);
